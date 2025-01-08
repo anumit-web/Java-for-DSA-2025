@@ -23,6 +23,14 @@ public class Banana1 {
 
 		// Print the formatted date and time
 		System.out.println("Current date and time in EST: " + formattedDateTime);
+		
+		// Format the date and time
+		DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("MMMM dd, yyyy, HH:mm:ss a z");
+		String formattedDateTime2 = estTime.format(formatter2);
+
+		// Print the formatted date and time
+		System.out.println("Current date and time in EST: " + formattedDateTime2);
+
 
 	}
 }
