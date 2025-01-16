@@ -13,11 +13,12 @@ Want to change languages? Try the search bar up the top.
 */
 
 public class HelloWorld2 {
+    
   public static void main(String args[]) {
     
     
     // This is a comment
-    System.out.println("Hello World");
+    System.out.println("Hello World 2");
 
     
     
