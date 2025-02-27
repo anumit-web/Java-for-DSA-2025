@@ -54,7 +54,14 @@ public class Main
         // convert string arrays to list
         List<String> fruitsList = Arrays.asList(fruits1); 
         
-        // convert list of string to string array
+        // convert list of string to string 
+        // Convert an ArrayList of String
+        String[] fruits1_1 = fruitsList.toArray(new String[0]);
+        
+        for (int i = 0; i < fruits1_1.length; i++) {
+             System.out.println("*, " + i + ", " + fruits1_1[i]);
+        }
+        
         
         // print list of strings
         System.out.println(Arrays.toString(fruitsList.toArray()));
