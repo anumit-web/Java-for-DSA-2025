@@ -30,9 +30,12 @@ public class Main
         fruits1[2] = "pineapple";
         System.out.println(fruits1[2]);
         
+        // for loop
         for (int i = 0; i < fruits1.length; i++) {
              System.out.println("" + i + ", " + fruits1[i]);
         }
+        
+        System.out.println("######################## Christopher Columbus");
         
         // Convert String Array to String
         System.out.println(Arrays.toString(fruits1));
