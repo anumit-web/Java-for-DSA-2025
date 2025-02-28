@@ -31,9 +31,14 @@ public class Main
         String str2 = String.valueOf(charArray);
         System.out.println(str2);
         
-        // string array
+        // string character array
 		String str3 = Arrays.toString(charArray);
 		System.out.println(str3);
+		int[] n = {1, 2, 3, 4,};
+		String str4 = Arrays.toString(n);
+		System.out.println(str4);
+		
+		
 		
 		
 	}
