@@ -9,6 +9,8 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 // https://www.onlinegdb.com/edit/ypAiL9ucZ
 
+import java.util.Arrays;
+
 public class Main
 {
 	public static void main(String[] args) {
@@ -21,13 +23,17 @@ public class Main
 		str = str.toLowerCase();
 		System.out.println(str);
 		
-		// string to character array
+		// convert string to character array
         char[] charArray = str.toCharArray();
         System.out.println("Length =" + charArray.length);
         
-        // character array to string
+        // convert character array to string
         String str2 = String.valueOf(charArray);
         System.out.println(str2);
+        
+        // string array
+		String str3 = Arrays.toString(charArray);
+		System.out.println(str3);
 		
 		
 	}
