@@ -76,6 +76,14 @@ public class Main
 			System.out.println(itemIceCreamFlavor);
 		}
 
+		// >>> Remove all items of a Set, clear set
+		System.out.println("Set before clear(): " + iceCreamFlavors);
+
+		// Clear the set
+		iceCreamFlavors.clear();
+		System.out.println("Set after clear(): " + iceCreamFlavors);
+		System.out.println("Is the set empty? " + iceCreamFlavors.isEmpty());
+
 
 
 	}
