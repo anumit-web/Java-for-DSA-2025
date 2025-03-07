@@ -61,7 +61,7 @@ public class Main
 		HashSet<String> clonedSet = new HashSet<String>(iceCreamFlavors);
 		System.out.println("Cloned set size  = " + clonedSet.size());
 
-		// >>> remove element from
+		// >>> remove element from Set
 		boolean removeResult = false;
 		removeResult = iceCreamFlavors.remove("Cherry");
 		System.out.println("Remove result =" + removeResult);
@@ -70,6 +70,11 @@ public class Main
 
 
 		// >>> Loop through a Set / HashSet
+		// Method 1: Using a for-each loop (enhanced for loop)
+		System.out.println("Method 1: For-each loop");
+		for (String itemIceCreamFlavor : iceCreamFlavors) {
+			System.out.println(itemIceCreamFlavor);
+		}
 
 
 
