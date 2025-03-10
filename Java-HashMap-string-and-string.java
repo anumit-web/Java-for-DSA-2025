@@ -47,5 +47,11 @@ public class Main
 			System.out.println("key = " + item + "; it's value = " + countryFood.get(item));
 		}
 
+		// remove all items from HashMap
+		System.out.println("^^^ = "+countryFood.size());
+		countryFood.clear();
+		System.out.println("^^^ = "+countryFood.size());
+
+
 	}
 }
