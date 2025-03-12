@@ -107,3 +107,27 @@ public class Main
 		System.out.println(map);
 	}
 }
+
+/*
+
+Hello World
+Country name = USA-Bin, Number of packets = 1
+Updated to existing Value = 1
+Country name = HongKong-Bin, Number of packets = 2
+Updated to existing Value = 2
+Country name = USA-Bin, Number of packets = 4
+Updated to existing Value = 5
+Country name = Best-Korea-Bin, Number of packets = 6
+Updated to existing Value = 6
+Country name = Vietnam-Bin, Number of packets = 2
+Updated to existing Value = 2
+Country name = Japan-Bin, Number of packets = 2
+Updated to existing Value = 2
+Country name = Vietnam-Bin, Number of packets = 2
+Updated to existing Value = 4
+Country name = Laos-Bin, Number of packets = 3
+New value added  = 3
+{USA-Bin=5, Vietnam-Bin=4, Best-Korea-Bin=6, Laos-Bin=3, Japan-Bin=2, HongKong-Bin=2}
+
+
+*/
