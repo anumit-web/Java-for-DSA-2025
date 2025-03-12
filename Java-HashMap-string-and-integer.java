@@ -50,7 +50,7 @@ public class Main
 
 		// Input data
 
-		String[][] binData = new String[7][2];
+		String[][] binData = new String[8][2];
 
 		binData[0][0] = "USA-Bin";
 		binData[0][1] = "1";
@@ -73,6 +73,10 @@ public class Main
 		binData[6][0] = "Vietnam-Bin";
 		binData[6][1] = "2";
 
+		binData[7][0] = "Laos-Bin";
+		binData[7][1] = "3";
+
+
 
 		// Iterate through rows
 		for (int i = 0; i < binData.length; i++) {
@@ -82,11 +86,18 @@ public class Main
 			String numberOfPackets = binData[i][1];
 			int valueToAdd = Integer.parseInt(numberOfPackets);
 
-			// add number of packets to correct bin
-			int currentValue = map.get(binName);
-			int newValue = currentValue + valueToAdd;
-			map.put(binName, newValue);
-			System.out.println("New Value = " + newValue);
+
+			if (map.containsKey(binName)) {
+				// add number of packets to correct bin
+				int currentValue = map.get(binName);
+				int newValue = currentValue + valueToAdd;
+				map.put(binName, newValue);
+				System.out.println("Updated to existing Value = " + newValue);
+			} else {
+				map.put(binName, valueToAdd);
+				System.out.println("New value added  = " + valueToAdd);
+
+			}
 
 
 		}
